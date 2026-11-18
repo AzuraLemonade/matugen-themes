@@ -1358,6 +1358,24 @@ You can now use all the color variables inside of the `config.rasi`, for example
 }
 ```
 
+### Sonora
+
+Make a new template file and paste the content from [here](./templates/sonora-matugen.json) into the file.
+
+Then replace `/path/to/template/` with the path to your previously created template file.
+
+```toml
+[config]
+# ...
+[templates.sonora]
+input_path = 'path/to/template'
+output_path = '~/.config/sonora/themes/sonora-matugen.json'
+# ...
+```
+
+Then, download Sonora Matugen theme [TBA]
+
+
 ### Spicetify Sleek
 
 Make a new template file and paste the content from [here](./templates/spicetify.ini) into the file.
